@@ -580,6 +580,12 @@ h2.col-md-6 {
   display: flex;
   justify-content: center;
 }
+
+.feature-design-image img {
+  width: 400px;
+  height: 400px;
+}
+
 section.header.contact-header {
   padding-bottom: 50px;
 }
