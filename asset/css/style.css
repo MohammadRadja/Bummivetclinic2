@@ -268,7 +268,8 @@ button.nav-button {
   margin-left: -205px;
 }
 .service-card {
-  min-height: 495px;
+  width: 22rem;
+  height: 16rem;
 }
 
 /* Testimonial Styles  */
