@@ -196,7 +196,7 @@ button.nav-button {
     transform: translateX(-50%);
   }
 }
-
+/* Mobile  */
 /* large - display 3 */
 @media (min-width: 992px) {
   .service-carousel.carousel-inner .carousel-item-right.active,
@@ -211,6 +211,24 @@ button.nav-button {
 }
 
 @media (max-width: 768px) {
+  .navbar-brand img {
+    display: none;
+  }
+
+  .navbar-expand-lg {
+    padding-bottom: 10px;
+  }
+
+  .right-content img {
+    display: none;
+  }
+
+  .container.header-content {
+    background-image: url(/asset/image/Hero/Hero2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
   .service-carousel.carousel-inner .carousel-item > div {
     display: none;
   }
