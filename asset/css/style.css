@@ -236,6 +236,11 @@ button.nav-button {
     height: 15rem;
   }
 
+  .footer-widget-2,
+  .footer-widget-3 {
+    display: none;
+  }
+
   .container.header-content {
     background-image: url(/asset/image/Hero/Hero2.jpg);
     background-size: cover;
