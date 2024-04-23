@@ -49,9 +49,12 @@ a:hover {
   font-weight: 500;
   font-size: 16px;
 }
-.main-menu ul li:hover {
+.main-menu ul,
+.main-menu .active,
+.main-menu li:hover > a {
   transform: scale(1.1);
   transition: 0.5s all ease;
+  color: #f58634;
 }
 button.nav-button {
   background: #ffba00;
